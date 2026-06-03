@@ -4,7 +4,7 @@
 
 This project presents an Arduino-based Muscle Fatigue Monitoring System that utilizes surface Electromyography (EMG) signals to detect muscle fatigue in real time. The system continuously monitors muscle activity from the forearm using an RS2334 EMG sensor and provides an alert through a buzzer when fatigue-related signal changes are detected.
 
-The project was developed as a Biomedical Engineering mini-project with the objective of demonstrating low-cost physiological signal monitoring and fatigue detection.
+The project was developed as a Biomedical Engineering group mini-project at the National Institute of Technology Rourkela and includes both the Arduino implementation and project documentation.
 
 ---
 
@@ -49,6 +49,18 @@ The project was developed as a Biomedical Engineering mini-project with the obje
 
 ---
 
+## Source Code
+
+The Arduino implementation used for EMG-based muscle fatigue monitoring is provided in:
+
+* `emg_fatigue_monitor.ino`
+
+The complete project documentation, methodology, circuit design, hardware setup, and experimental analysis are available in:
+
+* `MINI_PROJECT_REPORT.pdf`
+
+---
+
 ## Applications
 
 * Biomedical Instrumentation
@@ -82,12 +94,12 @@ The system successfully monitored forearm muscle activity and generated fatigue 
 muscle-fatigue-monitoring-emg/
 │
 ├── README.md
-└── MINI_PROJECT_REPORT.pdf
+├── emg_fatigue_monitor.ino
+├── MINI_PROJECT_REPORT.pdf
+└── LICENSE
 ```
 
-## Team
-
-This project was developed as a group mini-project in Biomedical Engineering.
+---
 
 ## Team
 
@@ -95,19 +107,23 @@ This project was developed as a group mini-project in Biomedical Engineering.
 
 ### Team Members
 
-- Priyabrata Das (123BM0746)
-- Abhiram Gajula (123BM0747)
-- Akash Kar (123BM0748)
-- Divyanshu Kaushik (123BM0749)
-- Tammana Tanmayi (123BM0750)
+* Priyabrata Das (123BM0746)
+* Abhiram Gajula (123BM0747)
+* Akash Kar (123BM0748)
+* Divyanshu Kaushik (123BM0749)
+* Tammana Tanmayi (123BM0750)
 
 National Institute of Technology Rourkela
+
+---
 
 ## My Contributions
 
 * Arduino programming
+* EMG signal acquisition
 * Fatigue detection logic implementation
 * Hardware integration
+* Testing and validation
 * Project documentation
 
 ---
@@ -115,6 +131,7 @@ National Institute of Technology Rourkela
 ## Technologies Used
 
 * Arduino IDE
+* Embedded C/C++
 * Electromyography (EMG)
 * Biomedical Signal Monitoring
 
@@ -123,3 +140,10 @@ National Institute of Technology Rourkela
 ## Keywords
 
 EMG, Muscle Fatigue Monitoring, Arduino, Biomedical Instrumentation, Electromyography, Biosignal Processing, Rehabilitation Engineering, Wearable Health Monitoring, Biomedical Engineering
+
+---
+
+## License
+
+This project is distributed under the MIT License. See the LICENSE file for details.
+
