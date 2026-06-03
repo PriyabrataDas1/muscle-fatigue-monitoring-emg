@@ -78,12 +78,16 @@ The system successfully monitored forearm muscle activity and generated fatigue 
 
 ## Repository Structure
 
+```text
 muscle-fatigue-monitoring-emg/
-
+│
 ├── README.md
+└── MINI_PROJECT_REPORT.pdf
+```
 
-├── MINI_PROJECT_REPORT.pdf
----
+## Team
+
+This project was developed as a group mini-project in Biomedical Engineering.
 
 ## Team
 
@@ -91,15 +95,13 @@ This project was developed as a group mini-project in Biomedical Engineering.
 
 ### Team Members
 
-*Priyabrata Das(123BM0746)
-*Abhiram Gajula(123BM0747)
-*Akash Kar(123BM0748)
-*Divyanshu Kaushik(123BM0749)
-*Tammana Tanmayi(123BM0750)
+- Priyabrata Das (123BM0746)
+- Abhiram Gajula (123BM0747)
+- Akash Kar (123BM0748)
+- Divyanshu Kaushik (123BM0749)
+- Tammana Tanmayi (123BM0750)
 
 National Institute of Technology Rourkela
-
----
 
 ## My Contributions
 
