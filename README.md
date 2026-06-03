@@ -82,14 +82,7 @@ muscle-fatigue-monitoring-emg/
 
 ├── README.md
 
-├── report/
-
-│ └── MINI_PROJECT.pdf
-
-├── arduino_code/
-
-└── images/
-
+├── MINI_PROJECT_REPORT.pdf
 ---
 
 ## Team
