@@ -6,14 +6,14 @@ A low-cost biomedical instrumentation system for real-time muscle fatigue detect
 
 ## Project Highlights
 
-- Real-time forearm muscle fatigue monitoring using surface EMG
-- RS2334 EMG sensor-based signal acquisition
-- Arduino Uno embedded implementation
-- Threshold-based fatigue detection algorithm
-- Automated buzzer alert generation
-- Low-cost wearable biomedical monitoring system
-- Applications in rehabilitation engineering and sports performance monitoring
-- Demonstrates practical biomedical signal acquisition and processing
+* Real-time forearm muscle fatigue monitoring using surface EMG
+* RS2334 EMG sensor-based signal acquisition
+* Arduino Uno embedded implementation
+* Threshold-based fatigue detection algorithm
+* Automated buzzer alert generation
+* Low-cost wearable biomedical monitoring system
+* Applications in rehabilitation engineering and sports performance monitoring
+* Demonstrates practical biomedical signal acquisition and processing
 
 ---
 
@@ -29,12 +29,12 @@ The proposed system demonstrates a low-cost and portable solution for wearable m
 
 ## Objectives
 
-- Acquire surface EMG signals from forearm muscles.
-- Monitor muscle activity in real time.
-- Detect fatigue-related variations in EMG signals.
-- Generate an automated alert upon fatigue detection.
-- Develop a low-cost biomedical instrumentation platform using Arduino.
-- Demonstrate practical implementation of biosignal monitoring systems.
+* Acquire surface EMG signals from forearm muscles.
+* Monitor muscle activity in real time.
+* Detect fatigue-related variations in EMG signals.
+* Generate an automated alert upon fatigue detection.
+* Develop a low-cost biomedical instrumentation platform using Arduino.
+* Demonstrate practical implementation of biosignal monitoring systems.
 
 ---
 
@@ -42,13 +42,25 @@ The proposed system demonstrates a low-cost and portable solution for wearable m
 
 The system was developed using the following hardware components:
 
-- Arduino Uno
-- RS2334 EMG Sensor
-- Surface EMG Electrodes
-- Piezo Buzzer
-- Connecting Wires
-- USB Power Supply
-- Personal Computer for visualization and monitoring
+* Arduino Uno
+* RS2334 EMG Sensor
+* Surface EMG Electrodes
+* Piezo Buzzer
+* Connecting Wires
+* USB Power Supply
+* Personal Computer for visualization and monitoring
+
+---
+
+## Circuit Diagram
+
+The complete hardware architecture of the muscle fatigue monitoring system is shown below. The system integrates an RS2334 EMG sensor, Arduino Uno microcontroller, buzzer feedback module, and external power supply for real-time acquisition and processing of electromyographic signals.
+
+<p align="center">
+  <img src="circuit_diagram.png" width="650">
+</p>
+
+*Figure 1. Circuit diagram of the EMG-based muscle fatigue monitoring system.*
 
 ---
 
@@ -71,6 +83,8 @@ When fatigue-related signal characteristics exceed predefined thresholds, the sy
 ---
 
 ## Methodology
+
+The hardware configuration used in this work is illustrated in Figure 1. Surface EMG signals acquired by the RS2334 sensor are transmitted to the Arduino Uno, where real-time fatigue analysis is performed and user feedback is generated through a buzzer module.
 
 The developed system acquires electrical activity generated during muscle contraction using surface EMG electrodes placed on the forearm. The RS2334 EMG sensor amplifies and conditions the acquired signals before transmitting them to the Arduino Uno for processing.
 
@@ -96,10 +110,10 @@ The fatigue detection logic was based on changes in signal amplitude and sustain
 
 ### Detection Strategy
 
-- Continuous signal monitoring
-- Threshold-based fatigue classification
-- Real-time processing
-- Automated feedback generation
+* Continuous signal monitoring
+* Threshold-based fatigue classification
+* Real-time processing
+* Automated feedback generation
 
 ---
 
@@ -113,11 +127,11 @@ emg_fatigue_monitor.ino
 
 The code performs:
 
-- EMG signal acquisition
-- Threshold analysis
-- Fatigue detection
-- Buzzer control
-- Serial monitoring
+* EMG signal acquisition
+* Threshold analysis
+* Fatigue detection
+* Buzzer control
+* Serial monitoring
 
 ---
 
@@ -127,11 +141,11 @@ The developed system successfully acquired EMG signals from forearm muscles and 
 
 ### Key Outcomes
 
-- Successful acquisition of surface EMG signals.
-- Real-time monitoring using Arduino Serial Plotter.
-- Detection of fatigue-related changes in muscle activity.
-- Reliable activation of buzzer alerts under fatigue conditions.
-- Demonstration of a low-cost wearable biomedical monitoring solution.
+* Successful acquisition of surface EMG signals.
+* Real-time monitoring using Arduino Serial Plotter.
+* Detection of fatigue-related changes in muscle activity.
+* Reliable activation of buzzer alerts under fatigue conditions.
+* Demonstration of a low-cost wearable biomedical monitoring solution.
 
 The prototype validated the feasibility of using surface electromyography and embedded systems for practical muscle fatigue assessment applications.
 
@@ -139,29 +153,25 @@ The prototype validated the feasibility of using surface electromyography and em
 
 ## Applications
 
-The proposed system has potential applications in:
-
-- Biomedical Instrumentation
-- Rehabilitation Engineering
-- Sports Performance Monitoring
-- Human–Machine Interfaces
-- Wearable Health Monitoring
-- Muscle Fatigue Assessment
-- Occupational Ergonomics
-- Physiotherapy and Recovery Monitoring
+* Biomedical Instrumentation
+* Rehabilitation Engineering
+* Sports Performance Monitoring
+* Human–Machine Interfaces
+* Wearable Health Monitoring
+* Muscle Fatigue Assessment
+* Occupational Ergonomics
+* Physiotherapy and Recovery Monitoring
 
 ---
 
 ## Limitations
 
-While the system successfully demonstrated fatigue detection, several limitations remain:
-
-- Single-channel EMG acquisition
-- Threshold-based detection rather than machine learning classification
-- Sensitivity to electrode placement
-- Motion artifact interference
-- Limited testing population
-- No wireless communication capability
+* Single-channel EMG acquisition
+* Threshold-based detection rather than machine learning classification
+* Sensitivity to electrode placement
+* Motion artifact interference
+* Limited testing population
+* No wireless communication capability
 
 ---
 
@@ -169,14 +179,14 @@ While the system successfully demonstrated fatigue detection, several limitation
 
 Potential future improvements include:
 
-- Wireless data transmission using Bluetooth or Wi-Fi
-- Mobile application integration
-- Machine learning-based fatigue classification
-- Multi-channel EMG acquisition
-- Cloud-based monitoring and analytics
-- Advanced digital signal processing techniques
-- Wearable rehabilitation platform integration
-- Long-term physiological monitoring
+* Wireless data transmission using Bluetooth or Wi-Fi
+* Mobile application integration
+* Machine learning-based fatigue classification
+* Multi-channel EMG acquisition
+* Cloud-based monitoring and analytics
+* Advanced digital signal processing techniques
+* Wearable rehabilitation platform integration
+* Long-term physiological monitoring
 
 ---
 
@@ -187,7 +197,8 @@ muscle-fatigue-monitoring-emg/
 
 ├── README.md
 ├── emg_fatigue_monitor.ino
-├── MINI_PROJECT_REPORT.pdf
+├── MUSCLE_FATIGUE_MONITORING_SYSTEM_REPORT.pdf
+├── circuit_diagram.png
 └── LICENSE
 ```
 
@@ -199,11 +210,11 @@ This project was developed as part of a Biomedical Engineering group project at 
 
 ### Team Members
 
-- Priyabrata Das (123BM0746)
-- Abhiram Gajula (123BM0747)
-- Akash Kar (123BM0748)
-- Divyanshu Kaushik (123BM0749)
-- Tammana Tanmayi (123BM0750)
+* Priyabrata Das (123BM0746)
+* Abhiram Gajula (123BM0747)
+* Akash Kar (123BM0748)
+* Divyanshu Kaushik (123BM0749)
+* Tammana Tanmayi (123BM0750)
 
 ---
 
@@ -211,12 +222,12 @@ This project was developed as part of a Biomedical Engineering group project at 
 
 My specific contributions to the project included:
 
-- Arduino programming and code development
-- Surface EMG signal acquisition and monitoring
-- Fatigue detection logic implementation
-- Hardware integration and system testing
-- Experimental validation
-- Technical documentation and project reporting
+* Arduino programming and code development
+* Surface EMG signal acquisition and monitoring
+* Fatigue detection logic implementation
+* Hardware integration and system testing
+* Experimental validation
+* Technical documentation and project reporting
 
 ---
 
